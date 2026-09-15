@@ -8,8 +8,8 @@ test('has title', async ({ page }) => {
   await expect(page).toHaveTitle(/Playwright/);
 });
 
-test('meesho', async ({ page }) => {
-  await page.goto('https://meesho.in');
+test('flipkart', async ({ page }) => {
+  await page.goto('https://flipkart.in');
 
   // Click the get started link.
   await page.getByRole('link', { name: 'Get started' }).click();
